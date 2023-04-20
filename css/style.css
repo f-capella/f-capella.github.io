@@ -1,0 +1,38 @@
+.header{
+  background-color: #004680;
+  width:100%;
+  height:auto;
+  float:left;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.navbar{
+  background-color: #363636;
+  width:100%;
+  height:auto;
+  float:left;
+}
+
+
+.content2{
+  background-color: #ffffff;
+  width:100%;
+  height:auto;
+  float:left;
+}
+
+.titulo{
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (max-width:500px) {
+  .header, .navbar, .content, .content2, .footer, .produtos {
+    width: 100%;
+  }
+}
+
+
+
